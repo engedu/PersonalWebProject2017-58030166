@@ -1,0 +1,104 @@
+body {
+    font-family: 'supermarketregular'; /* Fonts */
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFF; /* Background */
+}
+header {
+    background: #333; /* header background */
+    color: yellow; /* Fonts color */
+    padding-top: 7px; /* space between content and frame on top */
+    min-height: 85px; /* minimun height */
+    border-bottom: silver 6px solid; /* line in the bottom of header */
+}
+a {
+    color: yellow; /* Font color */
+    text-decoration: none;
+    text-transform: uppercase; /* change to A-Z */
+    font-size: 16px; /* Font size */
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+li {
+    float: left; /* float left side */
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+#branding {
+    float: left; /* float left side */
+}
+h1 {
+    float: left;
+    margin: 15px; /* frame space */
+}
+nav {
+    float: right; /* menu float right side */
+    margin-top: 25px;
+}
+#showcase {
+    min-height: 400px; /* minimun height of the images */
+    background: url('../images/showcase.jpg') no-repeat 0 -50px;  /* image bachground position of image */
+    text-align: center; /* text on the image center */
+}
+#front-actors {
+    background-color: #333; /* background content */
+    color: yellow; /* text color */
+    padding-top: 20px; /* space between the margin on top */
+    padding-left: 30px; /* space between the margin on left */
+    padding-bottom: 20px; /* space between the margin on bottom */
+    padding-right: 20px; /* space between the margin on right */
+    margin-block-start: 155px;
+    border: 65px  solid #FFF; /* position line color of the boorder*/
+}
+h4 {
+    color: white; /* color of tag <h4> */
+    font-size: 55px; /* font size */
+    margin-top: 105px; /* space between the body on top */
+    margin-bottom: 10px; /* space between the body on bottom */
+}
+h5 {
+    color: white;  /* text color */
+    font-size: 30px; /* font-size */
+}
+#searchactors {
+    padding: 15px;
+    color: yellow; /* text color */
+    background: #333; /* bachground color */
+}
+#myinput {
+    float: left; /* float on left between text */
+    margin-top: 15px;
+    padding: 4px;
+    height: 25px; /* height of the boxsearch */
+    width: 250px; /* width of the boxsearch */
+}
+h2 {
+    font-size: 24px; /* font-size */
+    text-align: center; /* text center*/
+    line-height: 1.5; /* line height */
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: solid; /* weight font */
+    color: inherit;
+}
+.container {
+    width : 97%;
+    margin: auto;
+    overflow: hidden; /* hidden overflow */
+    margin-top: 0px;
+}
+.columns {
+    float: left;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+}
+footer {
+    padding: 20px; /* space between a margin */
+    margin-top: 512px; /* space the footer between a top content */
+    color: yellow; /* font-color */
+    background-color: #333; /* background colors */
+    text-align: center; /* text-center */
+    font-size: 20px; /* font-size */
+}
